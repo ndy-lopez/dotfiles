@@ -1,5 +1,4 @@
 ZSH=$HOME/.oh-my-zsh
-
 # You can change the theme with another one from https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 ZSH_THEME="robbyrussell"
 
@@ -70,3 +69,7 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools

@@ -6,7 +6,7 @@
     },
     "editor.bracketPairColorization.enabled": true,
     "editor.detectIndentation": false,
-    "editor.fontSize": 14,
+    "editor.fontSize": 18,
     "editor.guides.bracketPairs": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -25,24 +25,24 @@
     "emmet.triggerExpansionOnTab": true,
     "explorer.confirmDelete": false,
     "files.exclude": {
-        "__pycache__": true,
-        "_site": true,
-        ".asset-cache": true,
-        ".bundle": true,
-        ".ipynb_checkpoints": true,
-        ".pytest_cache": true,
-        ".sass-cache": true,
-        ".svn": true,
-        "**/.DS_Store": true,
-        "**/.egg-info": true,
-        "**/.git": true,
-        "build": true,
-        "coverage": true,
-        "dist": true,
-        "log": true,
-        "node_modules": true,
-        "public/packs": true,
-        "tmp": true
+      "__pycache__": true,
+      "_site": true,
+      ".asset-cache": true,
+      ".bundle": true,
+      ".git": true,
+      ".ipynb_checkpoints": true,
+      ".pytest_cache": true,
+      ".sass-cache": true,
+      ".svn": true,
+      "**/.DS_Store": true,
+      "**/.egg-info": true,
+      "**/.git": false,
+      "build": true,
+      "coverage": true,
+      "dist": true,
+      "log": true,
+      "public/packs": true,
+      "tmp": true
     },
     "files.hotExit": "off",
     "files.insertFinalNewline": true,
@@ -78,10 +78,39 @@
     "window.restoreWindows": "none",
     "window.newWindowDimensions": "maximized",
     "workbench.editor.enablePreview": true,
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "tabnine.experimentalAutoImports": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "window.zoomLevel": 1,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "rapidapi.terminalLink.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
